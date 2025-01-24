@@ -1,7 +1,6 @@
 body {
     padding-top: 12vh;
     background-color: rgba(238, 238, 238, 0.911);
-    height: 200vh;
 }
 nav {
     background-color: white;
@@ -65,4 +64,57 @@ nav {
 }
 .nav-link:hover {
     font-weight: bold;
+}
+/* .nav-ofcanvas {
+    display: none;
+} */
+
+.menu-btn {
+    display: none;
+    color: #00b0c4;
+    font-size: 35px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+} 
+.nav-ofcanvas {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: white;
+    top: 0;
+    right: 0;
+    z-index: 2000;
+
+}
+.ofcanvas-child {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    margin-left: 30%;
+}
+.closebtn {
+    font-size: 3rem;
+    height: fit-content;
+    width: fit-content;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 0;
+}
+.closebtn:hover {
+    cursor: pointer;
+}
+.ofcanvas-link {
+    all: unset;
+    font-size: 2em;
+    font-weight: bold;
+}
+.ofcanvas-link:hover {
+    cursor: pointer;
+    color: #00a4b6;
 }

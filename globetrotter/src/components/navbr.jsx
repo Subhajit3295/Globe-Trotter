@@ -1,5 +1,13 @@
 import React from 'react';
 
+
+
+const toggleOfcanvas = () => {
+    const navOfcanvas = document.querySelector('.nav-ofcanvas');
+    // const closeBtn = document.querySelector('.closebtn');
+    navOfcanvas.classList.toggle("d-none");
+}
+
 export const Navbar = () => {
     return (
         <>
@@ -21,9 +29,23 @@ export const Navbar = () => {
                     <button className='loginbtn'>Login</button>
                     <button className='signupbtn'>Sign up</button>
                 </div>
-                <i class='bx bx-menu-alt-right menu-btn'></i>
+                <button className='menu-btn' onClick={toggleOfcanvas}><i class='bx bx-menu-alt-right'></i></button>
             </div>
         </nav>
+
+        <div className="nav-ofcanvas d-none">
+            <button className="closebtn" onClick={toggleOfcanvas}><i class='bx bx-x'></i></button>
+            <div className="ofcanvas-child">
+                <a href="s" className='ofcanvas-link'>Home</a>
+                <a href="s" className='ofcanvas-link'>Tours</a>
+                <a href="s" className='ofcanvas-link'>Destinations</a>
+                <a href="s" className='ofcanvas-link'>Deals</a>
+                <a href="s" className='ofcanvas-link'>About us</a>
+                <a href="s" className='ofcanvas-link'>Contact us</a>
+                <a href="s" className='ofcanvas-link'>Log in</a>
+                <a href="s"> <button className='signupbtn'>Signup</button></a>
+            </div>
+        </div>
         </>
     )
 }
