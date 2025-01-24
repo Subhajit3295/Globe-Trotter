@@ -1,0 +1,18 @@
+body {
+    height: 200vh;
+    padding-top: 15vh;
+
+}
+nav {
+    background-color: rgba(25, 0, 255, 0.452);
+    height: 15vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.nav-bar {
+    height: 100%;
+    width: 100%;
+}
