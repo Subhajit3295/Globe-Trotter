@@ -123,7 +123,7 @@ nav {
     color: #00a4b6;
 }
 .page-one-container {
-    height: 120vh;
+    height: 100%;
     width: 100%;
     padding: 5vh;
 }
@@ -157,7 +157,7 @@ nav {
     gap: 5vh;
 }
 .query-parent {
-    height: 35vh;
+    height: 30vh;
     width: 100%;
 }
 .query-category {

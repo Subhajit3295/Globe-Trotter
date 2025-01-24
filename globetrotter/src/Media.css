@@ -26,6 +26,8 @@
     }
     .page-one-container {
         padding: 0;
+        height: 90vh;
+        width: 100%;
     }
     .page-one {
         border-radius: 0;
