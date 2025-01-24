@@ -85,11 +85,12 @@ nav {
     top: 0;
     right: 0;
     z-index: 2000;
+    
 
 }
 .ofcanvas-child {
     height: 100%;
-    width: 100%;
+    width: auto;
     background-color: white;
     display: flex;
     flex-direction: column;
