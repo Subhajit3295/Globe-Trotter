@@ -1,18 +1,68 @@
 body {
+    padding-top: 12vh;
+    background-color: rgba(238, 238, 238, 0.911);
     height: 200vh;
-    padding-top: 15vh;
-
 }
 nav {
-    background-color: rgba(25, 0, 255, 0.452);
-    height: 15vh;
+    background-color: white;
+    height: 12vh;
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1000;
+    padding: 10px;
 }
-.nav-bar {
+.navbar-container {
     height: 100%;
     width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.company-name-container  {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00b0c4;
+}
+.menu-btn {
+    display: none;
+}
+.nav-item-container {
+    height: 100%;
+    width: 100%;
+    font-family: roboto;
+    gap: 20px;
+    display: flex;
+}
+.login-signup-container {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.loginbtn {
+    all: unset;
+    color: #00b0c4;
+    background-color: transparent;
+    cursor: pointer;
+}
+.signupbtn {
+    padding: 10px 30px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    background-color: #00b0c4;   
+    cursor: pointer;
+}
+.signupbtn:hover {
+    background-color: #00a4b6;
+}
+.nav-link:hover {
+    font-weight: bold;
 }
