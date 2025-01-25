@@ -2,7 +2,7 @@ import React from 'react';
 
 export const PageOne = () => {
     return (
-        <div className="page-one-container">
+        <div className="page-one-container" id='pageOne'>
             <div className="page-one">
                 <img src="https://assets.vogue.com/photos/5891380723f9887c0e0dfa60/master/w_1600%2Cc_limit/03-hottest-travel-destinations-of-2017.jpg" alt="" className="page-one-bgimg" />
                 <div className="page-one-heading">
