@@ -18,12 +18,12 @@ export const Navbar = () => {
                     <p className="h1 fw-bolder">GlobeTrotter</p>
                 </div>
                 <div className='nav-item-container justify-content-center align-items-center' >
-                    <a href="#pageOne" className='nav-link fw-bold'>Home</a>
-                    <a href="s" className='nav-link'>Tours</a>
-                    <a href="s" className='nav-link'>Destinations</a>
-                    <a href="s" className='nav-link'>Deals</a>
-                    <a href="s" className='nav-link'>About us</a>
-                    <a href="s" className='nav-link'>Contact us</a>
+                    <a href="#pageOne" className='nav-link fw-bold' title='Home'>Home</a>
+                    <a href="s" className='nav-link' title='Tours'>Tours</a>
+                    <a href="#heading-two" className='nav-link' title='Destination'>Destinations</a>
+                    <a href="s" className='nav-link' title='Deals'>Deals</a>
+                    <a href="s" className='nav-link' title='About us'>About us</a>
+                    <a href="s" className='nav-link' title='Contact us'>Contact us</a>
                 </div>
                 <div className='login-signup-container'>
                     <button className='loginbtn'>Login</button>
@@ -38,7 +38,7 @@ export const Navbar = () => {
             <div className="ofcanvas-child">
                 <a href="#pageOne" className='ofcanvas-link' onClick={toggleOfcanvas}>Home</a>
                 <a href="s" className='ofcanvas-link' onClick={toggleOfcanvas}>Tours</a>
-                <a href="s" className='ofcanvas-link' onClick={toggleOfcanvas}>Destinations</a>
+                <a href="#heading-two" className='ofcanvas-link' onClick={toggleOfcanvas}>Destinations</a>
                 <a href="s" className='ofcanvas-link' onClick={toggleOfcanvas}>Deals</a>
                 <a href="s" className='ofcanvas-link' onClick={toggleOfcanvas}>About us</a>
                 <a href="s" className='ofcanvas-link' onClick={toggleOfcanvas}>Contact us</a>

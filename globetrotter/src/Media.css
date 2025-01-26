@@ -64,7 +64,34 @@
     .searchbtn {
         width: 90%;
     }
-
+    .crousel-container {
+        width: auto;
+        margin: 1vh 2vh;
+    }
+    .heading-two {
+        height: fit-content;
+        width: 100%;
+        padding: 3vh 2vh;
+    }
+    .page-three-container {
+        width: 100%;
+    }
+    .page-three {
+        flex-direction: column-reverse;
+        margin: 2vh;
+    }
+    .getstartedbtn {
+        width: 30%;
+    }
+    .getstarted-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .none {
+        display: none;
+        height: 0px;
+    }
 
 
  }
@@ -159,6 +186,36 @@
     .searchbtn-container {
         justify-content: end;
         align-items: center;
+    }
+
+    .crousel-container {
+        width: auto;
+        margin: 1vh 2vh;
+    }
+    .heading-two {
+        height: fit-content;
+        width: 100%;
+        padding: 3vh 2vh;
+    }
+    .page-three-container {
+        gap: 2vh;
+        width: 100%;
+
+    }
+    .page-three {
+        flex-direction: column-reverse;
+        margin: 2vh;
+    }
+    .getstartedbtn {
+        width: 50%;
+    }
+    .getstarted-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .none {
+        display: none;
     }
     
   }
