@@ -7,7 +7,10 @@ const cardAmount = ["$245"];
 
 export const Crousel = () => {
     return (
-        <div className="crousel-container slide">
+        <div className="crousel-container slide" style={{
+
+            scrollSnapType: "x mandetory"
+        }}>
             <div className="crousel-items d-flex flex-column">
                 <img src={cardImages[0]} alt='' className="card-image"/>
                 <p className="h4 font-weight-bold mx-3 my-2">{cardHeading[0]}</p>

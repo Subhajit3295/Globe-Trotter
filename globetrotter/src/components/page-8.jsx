@@ -29,7 +29,7 @@ export const PageEight = () => {
       </div>
       <div className="page-eight-items d-flex h-100 w-100 gap-1">
         <div className="page-eight-link-container h-100 w-50 d-flex flex-column justify-content-start gap-2 align-items-start">
-          <a href="#page-one" className="h5 fw-bold page-eight-link">
+          <a href="#pageOne" className="h5 fw-bold page-eight-link">
             Home
           </a>
           <a href="#page-one" className="subheading-two page-eight-link">

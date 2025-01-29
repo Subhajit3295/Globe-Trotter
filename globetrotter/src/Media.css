@@ -67,6 +67,10 @@
     .crousel-container {
         width: auto;
         margin: 1vh 2vh;
+        scroll-snap-type: x mandatory;
+    }
+    .crousel-items {
+        scroll-snap-align: start;
     }
     .heading-two {
         height: fit-content;
@@ -279,6 +283,10 @@
     .crousel-container {
         width: auto;
         margin: 1vh 2vh;
+        scroll-snap-type: x mandatory;
+    }
+    .crousel-items {
+        scroll-snap-align: center;
     }
     .heading-two {
         height: fit-content;
@@ -356,6 +364,7 @@
         width: 90%;
         height: auto;
         top: 30%;
+        background-color: white;
     }
     .page-six-item {
         width: 100%;
