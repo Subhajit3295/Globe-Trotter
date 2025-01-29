@@ -7,6 +7,7 @@ import { PageTwo } from './components/page-2';
 import { HeadingThree, HeadingTwo } from './components/heading';
 import { PageThree } from './components/page-3';
 import { PageFour } from './components/page-4';
+import { PageFive } from './components/page-5';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
     <HeadingThree heading="Check Out A Few Advantages Of Joining Us" subheading="What we offer"/>
     <PageThree/>
     <PageFour/>
+    <PageFive/>
     </>
   );
 }

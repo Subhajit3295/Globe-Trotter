@@ -120,6 +120,19 @@
         height: 80%;
         width: 60%;
     }
+    .page-five {
+        height: 100%;
+        margin: 1vh;
+        gap: 1vh;
+        padding: 0;
+        flex-direction: column-reverse;
+    }
+    /* .page-five-child {
+        gap: 2vh;
+    } */
+    .outer {
+        width: 100%;
+    }
 
 
  }
@@ -273,6 +286,23 @@
     .page-four-img-container, .page-four-img-container-2 {
         height: 100%;
         width: 60%;
+    }
+    .page-five {
+        height: 100%;
+        margin: 2vh;
+        padding: 0;
+        gap: 3vh;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .heading-four {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .outer {
+        width: 100%;
     }
     
   }
