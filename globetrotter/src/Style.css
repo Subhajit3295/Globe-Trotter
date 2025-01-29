@@ -462,7 +462,52 @@ nav {
 .outer {
     width: 50%;
 }
-
+.outer:hover {
+    cursor: grab;
+}
+.outer:active {
+    cursor: grabbing;
+}
+.page-six {
+    height: 80vh;
+}
+.worldmap-img {
+    height: 80%;
+    right: 0;
+}
+.page-six-item {
+    position: inherit;
+    padding: 5vh;
+    width: 50%;
+}
+.subscribe-input-container {
+    position: relative;
+    display: inline-block;
+    width: 55%;
+    border: solid 2px #00b0c4;
+    border-radius: 15px;
+}
+.subscribe-input {
+    all: unset;
+    width: 50%;
+}
+.subscribe-input::placeholder {
+    color: rgb(160, 160, 160);
+}
+.subscribe-btn {
+    background-color: #00b0c4;
+    color: white;
+    padding: 7px 12px;
+    border: none;
+    border-radius: 7px;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(-10%, -50%);
+}
+.subscribe-btn:hover {
+    background-color: #00a4b6;
+}
 
 
 

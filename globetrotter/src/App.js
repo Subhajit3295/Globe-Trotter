@@ -8,6 +8,7 @@ import { HeadingThree, HeadingTwo } from './components/heading';
 import { PageThree } from './components/page-3';
 import { PageFour } from './components/page-4';
 import { PageFive } from './components/page-5';
+import { PageSix } from './components/page-6';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
     <PageThree/>
     <PageFour/>
     <PageFive/>
+    <PageSix/>
     </>
   );
 }
