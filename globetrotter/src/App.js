@@ -9,6 +9,9 @@ import { PageThree } from './components/page-3';
 import { PageFour } from './components/page-4';
 import { PageFive } from './components/page-5';
 import { PageSix } from './components/page-6';
+import { PageSeven } from './components/page-7';
+import { PageEight } from './components/page-8';
+import { Footer } from './components/footer';
 
 function App() {
   return (
@@ -22,6 +25,9 @@ function App() {
     <PageFour/>
     <PageFive/>
     <PageSix/>
+    <PageSeven/>
+    <PageEight/>
+    <Footer/>
     </>
   );
 }
